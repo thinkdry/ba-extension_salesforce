@@ -1,0 +1,20 @@
+BlankApplication Extension SalesForce Connector
+==========
+
+BA Extension SalesForce is a plugin to handle remote connection to SalesForce
+Of course, You need to have an activated account on SalesForce.com with a personnal key associated.
+This plugin let you configure an SalesForce Connection
+
+Dependencies
+=======
+
+This plugin is based on activerecord-activesalesforce-adapter gem distributed on http://github.com/luigi/activerecord-activesalesforce-adapter
+just run: sudo gem install activerecord-activesalesforce-adapter
+
+Install
+=======
+
+Simply run:
+rake salesforce:install
+
+Copyright (c) 2010 thinkDRY, released under the AGPL license
